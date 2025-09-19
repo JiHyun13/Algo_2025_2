@@ -123,14 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-1.c" />
-    <ClCompile Include="1-2.c" />
-    <ClCompile Include="2-1.c" />
-    <ClCompile Include="2-2.c" />
-    <ClCompile Include="2-3.c" />
-    <ClCompile Include="3-1.c" />
-    <ClCompile Include="3-2.c" />
-    <ClCompile Include="4-1.c" />
+    <ClCompile Include="1-1 자료구조복습.c" />
+    <ClCompile Include="1-2 자료구조복습.c" />
+    <ClCompile Include="2-1 선택정렬.c" />
+    <ClCompile Include="2-2 삽입정렬.c" />
+    <ClCompile Include="2-3 선택vs삽입.c" />
+    <ClCompile Include="3-1 순차힙.c" />
+    <ClCompile Include="3-2 최대힙.c" />
+    <ClCompile Include="4-1 힙정렬 유일키.c" />
+    <ClCompile Include="4-2. 힙정렬 중복키.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
