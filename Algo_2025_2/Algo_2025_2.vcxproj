@@ -132,6 +132,9 @@
     <ClCompile Include="3-2 최대힙.c" />
     <ClCompile Include="4-1 힙정렬 유일키.c" />
     <ClCompile Include="4-2. 힙정렬 중복키.c" />
+    <ClCompile Include="5-1. 합병정렬.c" />
+    <ClCompile Include="5-2. 퀵정렬.c" />
+    <ClCompile Include="과제1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

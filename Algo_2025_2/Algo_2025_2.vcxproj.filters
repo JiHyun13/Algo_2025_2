@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\과제">
+      <UniqueIdentifier>{b9fd4295-9aa0-4a24-b061-8a180429fecf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1-2 자료구조복습.c">
@@ -40,6 +43,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="4-2. 힙정렬 중복키.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1.c">
+      <Filter>소스 파일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="5-1. 합병정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5-2. 퀵정렬.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
