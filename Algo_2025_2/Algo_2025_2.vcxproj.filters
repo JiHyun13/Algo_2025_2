@@ -54,5 +54,14 @@
     <ClCompile Include="5-2. 퀵정렬.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6-1. 이진탐색재귀.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6-2. 이진탐색.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6-3. 이진탐색 응용.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

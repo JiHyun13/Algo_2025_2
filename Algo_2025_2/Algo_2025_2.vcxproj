@@ -134,6 +134,9 @@
     <ClCompile Include="4-2. 힙정렬 중복키.c" />
     <ClCompile Include="5-1. 합병정렬.c" />
     <ClCompile Include="5-2. 퀵정렬.c" />
+    <ClCompile Include="6-1. 이진탐색재귀.c" />
+    <ClCompile Include="6-2. 이진탐색.c" />
+    <ClCompile Include="6-3. 이진탐색 응용.c" />
     <ClCompile Include="과제1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
