@@ -1,64 +1,49 @@
-//#pragma warning(disable:4996)
 //#include<stdio.h>
-//#include<stdlib.h>
 //
-////전역 선언..
-//int H[100];
-//int n = 0;
+//int H[100], n;
 //
+//void reBuildHeap(int i);
+//void buildHeap();
 //void downHeap(int i);
 //void printHeap();
-//void rBuildHeap(int i);
-//void buildHeap();
 //
 //int main() {
 //
-//	//선언
-//	int count,key;
+//    scanf("%d", &n);
+//    for (int i = 1; i <= n; i++) scanf(" %d", &H[i]);
+//    reBuildHeap(1);
+//    //buildHeap();
+//    printHeap();
 //
-//	scanf("%d", &count);
-//	n = count;
-//
-//	for (int i = 1; i <= count; i++) scanf("%d", &H[i]);
-//
-//	buildHeap();
-//	printHeap();
+//    return 0;
 //}
 //
-//void downHeap(int i) {
-//	while (1) {
-//		int left = i * 2;
-//		int right = left + 1;
-//		int t = i;
-//		if (left <= n && H[left] > H[t]) t = left;
-//		if (right <= n && H[right] > H[t]) t = right;
+//void reBuildHeap(int i) { //걍 1부터 왼쪽 rebuild, 오른쪽 rebuild 마지막에 down 한번~!
+//    if (i > n) return; 
 //
-//		if (t == i)break;
+//    reBuildHeap(i * 2);
+//    reBuildHeap(i * 2 + 1);
 //
-//		int tmp = H[t];
-//		H[t] = H[i];
-//		H[i] = tmp;
-//		i = t;
-//	}
+//    downHeap(i);
+//
+//}
+//void buildHeap() { //리프 이전 n/2부터 1까지 1씩줄면서 down~
+//    for (int i = n / 2; i >= 1; i--) downHeap(i);
 //}
 //
+//void downHeap(int i) { //1->n
+//    if (i >= n) return;
+//
+//    int compare = i, left = i * 2, right = i * 2 + 1;
+//    if (left <= n && H[compare] <= H[left]) compare = left;
+//    if (right <= n && H[compare] <= H[right]) compare = right;
+//
+//    if (compare != i) {
+//        int tmp = H[compare]; H[compare] = H[i]; H[i] = tmp;
+//        downHeap(compare);
+//    }
+//}
 //void printHeap() {
-//	for (int i = 1; i <= n; ++i) {
-//		printf(" %d", H[i]);
-//	}
-//	printf("\n");
-//}
-//
-//void rBuildHeap(int i) {
-//	if (i > n) return; //재귀 기저a
-//	rBuildHeap(i * 2); //왼쪽부터 down
-//	rBuildHeap(i * 2 + 1); //오른쪽 down heap
-//	downHeap(i);
-//
-//}
-//
-//void buildHeap() {
-//	for (int i = n / 2; i >= 1; i--) { //리프 빼고 루트로 올라가면서 downheap
-//		downHeap(i);
-//	}
+//    for (int i = 1; i <= n; i++) printf(" %d", H[i]);
+//    printf("\n");
 //}

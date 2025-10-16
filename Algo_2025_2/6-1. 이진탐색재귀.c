@@ -1,33 +1,26 @@
-//#pragma warning(disable:4996)
-//#include <stdio.h>
-//#include <stdlib.h>
+//#include<stdio.h>
+//#include<stdlib.h>
 //
-//int binarySearch(int start, int end, int k, int* arr, int ans);
-//
+////배열, 키, start,end, ans!
+//int binarySearch(int* arr, int k, int s, int e, int ans);
 //int main() {
-//    int n, k, idx;
+//
+//    int n, k;
 //    scanf("%d %d", &n, &k);
 //    int* arr = (int*)malloc(sizeof(int) * n);
-//    for (int i = 0; i < n; i++) scanf("%d", &arr[i]);
+//    for (int i = 0; i < n; i++) scanf(" %d", &arr[i]);
+//    printf("%d", binarySearch(arr, k, 0, n - 1, -1)); //기본적으로 ans=-1
 //
-//    idx = binarySearch(0, n - 1, k, arr, -1); 
-//
-//    printf("%d", idx);
 //    free(arr);
 //    return 0;
 //}
 //
-//int binarySearch(int start, int end, int k, int* arr, int ans) {
-//    if (start > end) return ans;
+//int binarySearch(int* arr, int k, int s, int e, int ans) {
+//    if (s > e) return ans; //더이상 탐색을 못하면 ans 반환.
 //
-//    int mid = (start + end) / 2;
+//    int mid = (s + e) / 2;
+//    if (k == arr[mid]) return mid; //일치하면 mid.
+//    else if (k > arr[mid]) return binarySearch(arr, k, mid + 1, e, mid); //k가 크면 mid+1~e 에서 재탐색. 이 때 k보다 작은 값 mid를 ans로
+//    else return binarySearch(arr, k, s, mid - 1, ans);
 //
-//    if (arr[mid] == k) return mid; // 정확히 같으면 바로 반환
-//    else if (arr[mid] < k) {
-//        ans = mid; 
-//        return binarySearch(mid + 1, end, k, arr, ans);
-//    }
-//    else {
-//        return binarySearch(start, mid - 1, k, arr, ans);
-//    }
 //}
