@@ -63,5 +63,14 @@
     <ClCompile Include="6-3. 이진탐색 응용.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="7-1. 전위순회.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7-2. AVL트리.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3. AVL트리2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

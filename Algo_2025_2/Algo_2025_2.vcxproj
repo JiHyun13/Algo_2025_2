@@ -137,6 +137,9 @@
     <ClCompile Include="6-1. 이진탐색재귀.c" />
     <ClCompile Include="6-2. 이진탐색.c" />
     <ClCompile Include="6-3. 이진탐색 응용.c" />
+    <ClCompile Include="7-1. 전위순회.c" />
+    <ClCompile Include="7-2. AVL트리.c" />
+    <ClCompile Include="7-3. AVL트리2.c" />
     <ClCompile Include="과제1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
