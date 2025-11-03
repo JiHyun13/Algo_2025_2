@@ -72,5 +72,14 @@
     <ClCompile Include="7-3. AVL트리2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10-1. 분리연쇄법 해시테이블.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2. 개방주소법 해시테이블 선형조사.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10-3. 개방주소법 해시테이블 이중해싱.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
