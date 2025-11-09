@@ -81,5 +81,11 @@
     <ClCompile Include="10-3. 개방주소법 해시테이블 이중해싱.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11-1. 인접리스트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11-2. 인접행렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -128,6 +128,8 @@
     <ClCompile Include="10-1. 분리연쇄법 해시테이블.c" />
     <ClCompile Include="10-2. 개방주소법 해시테이블 선형조사.c" />
     <ClCompile Include="10-3. 개방주소법 해시테이블 이중해싱.c" />
+    <ClCompile Include="11-1. 인접리스트.c" />
+    <ClCompile Include="11-2. 인접행렬.c" />
     <ClCompile Include="2-1 선택정렬.c" />
     <ClCompile Include="2-2 삽입정렬.c" />
     <ClCompile Include="2-3 선택vs삽입.c" />
