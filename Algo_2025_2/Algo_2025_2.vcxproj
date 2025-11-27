@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -125,11 +125,16 @@
   <ItemGroup>
     <ClCompile Include="1-1 자료구조복습.c" />
     <ClCompile Include="1-2 자료구조복습.c" />
-    <ClCompile Include="10-1. 분리연쇄법 해시테이블.c" />
-    <ClCompile Include="10-2. 개방주소법 해시테이블 선형조사.c" />
-    <ClCompile Include="10-3. 개방주소법 해시테이블 이중해싱.c" />
-    <ClCompile Include="11-1. 인접리스트.c" />
-    <ClCompile Include="11-2. 인접행렬.c" />
+    <ClCompile Include="11-1.DFS.c" />
+    <ClCompile Include="11-2.BFS.c" />
+    <ClCompile Include="12-1. 방향그래프.c" />
+    <ClCompile Include="13-1. Prim-Jarnik.c" />
+    <ClCompile Include="13-2.Kruskal.c" />
+    <ClCompile Include="9-1. 분리연쇄법 해시테이블.c" />
+    <ClCompile Include="9-2. 개방주소법 해시테이블 선형조사.c" />
+    <ClCompile Include="9-3. 개방주소법 해시테이블 이중해싱.c" />
+    <ClCompile Include="10-1. 인접리스트.c" />
+    <ClCompile Include="10-2. 인접행렬.c" />
     <ClCompile Include="2-1 선택정렬.c" />
     <ClCompile Include="2-2 삽입정렬.c" />
     <ClCompile Include="2-3 선택vs삽입.c" />
@@ -146,6 +151,7 @@
     <ClCompile Include="7-2. AVL트리.c" />
     <ClCompile Include="7-3. AVL트리2.c" />
     <ClCompile Include="과제1.c" />
+    <ClCompile Include="과제3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
