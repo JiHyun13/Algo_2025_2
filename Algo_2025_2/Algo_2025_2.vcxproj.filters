@@ -105,5 +105,8 @@
     <ClCompile Include="13-2.Kruskal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="과제4.c">
+      <Filter>소스 파일\과제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

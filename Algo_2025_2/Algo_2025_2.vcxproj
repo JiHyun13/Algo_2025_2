@@ -152,6 +152,7 @@
     <ClCompile Include="7-3. AVL트리2.c" />
     <ClCompile Include="과제1.c" />
     <ClCompile Include="과제3.c" />
+    <ClCompile Include="과제4.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
