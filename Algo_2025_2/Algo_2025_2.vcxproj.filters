@@ -108,5 +108,11 @@
     <ClCompile Include="과제4.c">
       <Filter>소스 파일\과제</Filter>
     </ClCompile>
+    <ClCompile Include="14-1. Dijkstra.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14-2. BellmanFord.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

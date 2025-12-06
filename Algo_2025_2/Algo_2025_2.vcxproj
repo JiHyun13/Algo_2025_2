@@ -130,6 +130,8 @@
     <ClCompile Include="12-1. 방향그래프.c" />
     <ClCompile Include="13-1. Prim-Jarnik.c" />
     <ClCompile Include="13-2.Kruskal.c" />
+    <ClCompile Include="14-1. Dijkstra.c" />
+    <ClCompile Include="14-2. BellmanFord.c" />
     <ClCompile Include="9-1. 분리연쇄법 해시테이블.c" />
     <ClCompile Include="9-2. 개방주소법 해시테이블 선형조사.c" />
     <ClCompile Include="9-3. 개방주소법 해시테이블 이중해싱.c" />
